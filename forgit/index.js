@@ -13,3 +13,9 @@ res.send("this is successful")
 
 }
 );
+
+app.post('/getpost',(req,res)=> {
+    res.send("this is post")
+    
+    }
+    );
